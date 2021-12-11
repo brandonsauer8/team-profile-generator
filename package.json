@@ -1,0 +1,23 @@
+{
+  "name": "team-profile-generator",
+  "version": "1.0.0",
+  "description": "Generates cards for Employees",
+  "main": "Index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brandonsauer8/team-profile-generator.git"
+  },
+  "author": "Brandon Sauer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brandonsauer8/team-profile-generator/issues"
+  },
+  "homepage": "https://github.com/brandonsauer8/team-profile-generator#readme",
+  "dependencies": {
+    "inquirer": "^8.2.0",
+    "jest": "^27.4.4"
+  }
+}
