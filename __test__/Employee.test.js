@@ -5,7 +5,7 @@ test('creates employee object', () => {
     expect(typeof(employee)).toBe("object");
 });
 
-test('sets employee name', () => {
+test('sets  name', () => {
     const name = "Brandon"
     const employee = new Employee(name);
     expect(employee.name).toBe(name);
@@ -31,12 +31,12 @@ test('get ID', () => {
     expect(employee.getId()).toBe(testId);
 });
 test('get email', () => {
-    const testEmail = "brandon@gmail.com"
+    const testEmail = "brandon@test.com"
     const employee = new Employee("Brandon", 1, testEmail);
     expect(employee.getEmail()).toBe(testEmail);
 });
-test('getRole function', () => {
+test('get role', () => {
     const testRole = "Employee"
-    const employee = new Employee("Brandon", 1, "brandon@gmail.com");
+    const employee = new Employee("Brandon", 1, "brandon@test.com");
     expect(employee.getRole()).toBe(testRole);
 });

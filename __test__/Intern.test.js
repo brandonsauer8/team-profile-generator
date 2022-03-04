@@ -1,19 +1,19 @@
 const Intern = require("../lib/Intern");
 
-test("setting school", () => {
-    const testValue = "UC Davis";
-    const employee = new Intern("Brandon", 1, "test@gmail.com", testValue);
-    expect(employee.school).toBe(testValue);
+test("sets school", () => {
+    const testSchool = "UC Davis";
+    const employee = new Intern("Brandon", 1, "brandon@test.com", testSchool);
+    expect(employee.school).toBe(testSchool);
 })
 
-test("setting employee role", () => {
-    const testValue = "Intern";
-    const employee = new Intern("Brandon", 1, "test@gmail.com", testValue);
-    expect(employee.getRole()).toBe(testValue);
+test("sets employee role", () => {
+    const testRole = "Intern";
+    const employee = new Intern("Brandon", 1, "brandon@test.com", testRole);
+    expect(employee.getRole()).toBe(testRole);
 })
 
-test("Get School", () => {
-    const testValue = "UC Davis";
-    const employee = new Intern("Brandon", 1, "test@gmail.com", testValue);
-    expect(employee.getSchool()).toBe(testValue);
+test("get school", () => {
+    const testSchool = "UC Davis";
+    const employee = new Intern("Brandon", 1, "brandon@test.com", testSchool);
+    expect(employee.getSchool()).toBe(testSchool);
 });
