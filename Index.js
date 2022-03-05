@@ -5,7 +5,7 @@ const Manager = require('./lib/Manager');
 const Engineer = require('./lib/Engineer');
 const Intern = require('./lib/Intern');
 const generateHTML = require('./src/htmlTemp');
-teamArray = []
+teamData = []
 
 const managerPrompt = () => {
     return inquirer.prompt([
@@ -193,7 +193,6 @@ const internPrompt = () => {
     .then(routing);
 };
 
-// routing to engineer or intern
 const routing = () => {
     return inquirer.prompt([
         {
@@ -218,7 +217,6 @@ const routing = () => {
     })
 }
 
-// function to write README file
 const writeToFile = fileContent => {
     return new Promise((resolve, reject) => {
         fs.writeFile('./dist/team.html', fileContent, err => {
