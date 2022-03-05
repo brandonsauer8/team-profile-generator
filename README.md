@@ -11,7 +11,7 @@ Table of Contents
 Type in "node index" and answer all of the prompts. 
 
 ## Demonstration
-* Video: <iframe src="https://drive.google.com/file/d/1DuiH96hV7y_zRc_85B0kXR-x_0OogU1l/preview" width="640" height="480"></iframe>
+* Video: https://drive.google.com/file/d/1DuiH96hV7y_zRc_85B0kXR-x_0OogU1l/view
 
 
 ## Questions
